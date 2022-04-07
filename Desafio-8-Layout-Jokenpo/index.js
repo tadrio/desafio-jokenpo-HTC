@@ -6,6 +6,8 @@ const $rockButton2 = document.querySelector(".player-2-rock-button");
 const $paperButton2 = document.querySelector(".player-2-paper-button");
 const $scissorsButton2 = document.querySelector(".player-2-scissors-button");
 
+const $resetButton = document.querySelector(".reset-button");
+
 const $player1Field = document.querySelector(".player-1-field");
 const $player2Field = document.querySelector(".player-2-field");
 
@@ -84,3 +86,7 @@ $scissorsButton2.addEventListener("click", function () {
   verifyGame();
   printGameResult();
 });
+
+$resetButton.addEventListener("click", function(){
+  location.reload();
+})
