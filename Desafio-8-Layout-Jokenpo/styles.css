@@ -89,8 +89,7 @@ body {
 } 
 
 .button:active {
-  color: #0099ff;
-  font-weight: 700;
+  color: #005892;
 }
 
 .field-box {
@@ -138,3 +137,8 @@ body {
 .player-2-field{
   transform: rotate(180deg);
 } 
+
+.start{
+  content: "Pause";
+  background-color: #005892;
+}
